@@ -76,10 +76,8 @@ WSGI_APPLICATION = 'awsprojet.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+    'default': dict(ENGINE='django.db.backends.mysql', NAME='awsproject', USER='admin', PASSWORD='awsproject',
+                    HOST='awsproject.ckp6ws1si4px.us-east-1.rds.amazonaws.com', PORT='3306')
 }
 
 

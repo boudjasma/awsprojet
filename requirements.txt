@@ -1,2 +1,7 @@
 django
 pandas
+mysqlclient
+django-storages
+boto3
+streamlit
+sqlalchemy

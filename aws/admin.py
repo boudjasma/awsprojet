@@ -1,3 +1,5 @@
 from django.contrib import admin
 
-# Register your models here.
+from aws.models import Matter
+
+admin.site.register(Matter)

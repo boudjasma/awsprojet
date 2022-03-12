@@ -12,8 +12,8 @@
 </head>
 <body>
     <div class="position-absolute top-50 start-50 translate-middle">
-          <button type="button" class="btn btn-primary btn-lg">Load on RDS</button>
-          <button type="button" class="btn btn-secondary btn-lg">Load on S3</button>
+        <form type="button" class="btn btn-primary btn-lg" action="s3_to_rds" method="POST">Load on RDS</form>
+        <form type="button" class="btn btn-secondary btn-lg" action="rds_to_s3" method="POST">Load on S3</form>
     </div>
 </body>
 </html>
