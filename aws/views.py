@@ -13,7 +13,6 @@ bucket_name = "awsprojectgrp11s3"
 filename = "matters.json"
 path="/"
 
-
 def connect_db():
     engine = create_engine("mysql://admin:user@name-db.cquuurrihevr.eu-west-3.rds.amazonaws.com:3306/testdb")
     return engine
